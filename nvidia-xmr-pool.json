@@ -1,0 +1,30 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "colors": true,
+    "cuda-max-threads": 256,
+    "donate-level": 5,
+    "log-file": "nvlog",
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:5555",
+            "user": "41z5UmjFLxFChK9KxtZUjmbRMZQSrNzxVQHsyHBU7ZT71LLrmtZ7oo25ybPNyJ76oVEUtRJ6y3nhMXM8rAfHnDHb6CwHNJY",
+            "pass": "moka-nvidia",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": 1
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "threads": null
+}
