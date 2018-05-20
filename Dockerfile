@@ -16,3 +16,5 @@ RUN wget https://github.com/xmrig/xmrig/releases/download/v${XMRIG_VERSION}/xmri
   
 ENTRYPOINT ["./xmrig"]
 CMD ["--url=pool.supportxmr.com:5555", "--user=41z5UmjFLxFChK9KxtZUjmbRMZQSrNzxVQHsyHBU7ZT71LLrmtZ7oo25ybPNyJ76oVEUtRJ6y3nhMXM8rAfHnDHb6CwHNJY", "--pass=Docker", "-k", "--max-cpu-usage=100"]
+#  ./xmrig-amd -l xmrlog --donate-level 1 -o pool.supportxmr.com:5555 -u 41z5UmjFLxFChK9KxtZUjmbRMZQSrNzxVQHsyHBU7ZT71LLrmtZ7oo25ybPNyJ76oVEUtRJ6y3nhMXM8rAfHnDHb6CwHNJY -p worker-1:xmrnotifications@bigmoka.com --variant 1 -k
+
